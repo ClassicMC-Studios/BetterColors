@@ -9,7 +9,7 @@
   
   function basicReactComponent(){
     return(
-      <h1 className='bc-green'></h1>
+      <h1 className='bc-green'>Hello World!</h1>
     );
   };
   
@@ -24,5 +24,18 @@
     <li>bc-text-nameOfColor</li>
     <li>bc-bdc-nameOfColor <em>{Beta}</em></li>
     <li>bc-opacity-half/full</li>
+  </ul>
+</details>
+<details>
+  <summary>Colors</summary>
+  <ul>
+    <li><b>Black</b></li>
+    <li>White</li>
+    <li><b>Gold</b></li>
+    <li>Goldenrod</li>
+    <li><b>Green</b></li>
+    <li>Grass</li>
+    <li><b>Sky</b></li>
+    <li>Link</li>
   </ul>
 </details>

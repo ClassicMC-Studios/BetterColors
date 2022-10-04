@@ -2,7 +2,7 @@
 
 ### A css <a href="">Color</a> framework
 
-#### by, <a href="">ClassicMC</a>
+#### by, <a href="">C</a>l<a href="">a</a>s<a href="">s</a>i<a href="">c</a>M<a href="">C</a>
 
 > <b>Basics</b>
 

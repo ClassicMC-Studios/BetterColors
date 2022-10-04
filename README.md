@@ -1,6 +1,8 @@
 # Better<a href="">Colors</a>
 
-### A css <a href="">color</a> framework
+### A css <a href="">Color</a> framework
+
+#### by, <a href="">ClassicMC</a>
 
 > <b>Basics</b>
 

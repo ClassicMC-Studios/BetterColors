@@ -1,5 +1,7 @@
 # Better<a href="">Colors</a>
 
+> Link stylesheet <a href="https://classicmc-studios.github.io/bc.css">here</a>
+
 ### A css <a href="">Color</a> framework
 
 #### by, <a href="">C</a>l<a href="">a</a>s<a href="">s</a>i<a href="">c</a>M<a href="">C</a>

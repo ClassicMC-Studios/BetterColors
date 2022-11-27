@@ -1,12 +1,13 @@
 # Better<a href="">Colors</a>
 
-> Link stylesheet <a href="https://classicmc-studios.github.io/bc.css">here</a>
+> Link stylesheet <a href="https://classicmc-studios.github.io/bc.css">here</a><br/>
+> Download React-Native version <a href="https://github.com/ClassicMC-Studios/Better-Colors/blob/main/Bc.js">Here</a>
 
 ### A css <a href="">Color</a> framework
 
 #### by, <a href="">C</a>l<a href="">a</a>s<a href="">s</a>i<a href="">c</a>M<a href="">C</a>
 
-> <b>Basics</b>
+> <b>Basics in React</b>
 
 ```jsx
   import './bc.css'
@@ -21,25 +22,22 @@
 
 ```
 
-<details>
-  <summary>Commands</summary>
-  <ul>
-    <li>bc-nameOfColor</li>
-    <li>bc-text-nameOfColor</li>
-    <li>bc-bdc-nameOfColor <em>{Beta}</em></li>
-    <li>bc-opacity-half/full</li>
-  </ul>
-</details>
-<details>
-  <summary>Colors</summary>
-  <ul>
-    <li><b>Black</b></li>
-    <li>White</li>
-    <li><b>Gold</b></li>
-    <li>Goldenrod</li>
-    <li><b>Green</b></li>
-    <li>Grass</li>
-    <li><b>Sky</b></li>
-    <li>Link</li>
-  </ul>
-</details>
+> **Basics in React-Native**
+
+```js
+  import * as React from 'react';
+  import { Text, View, Image, StyleSheet } from 'react-native';
+  import { bc } from './styles/Bc'
+
+  export default function App(){
+    return(
+      <View>
+        <Text style={[bc.mint, bc.textAlign,bc.padding25,bc.radius25]}>Hello, World!</Text>
+        <View style={bc.alignItems}>
+          <Image source={require('./assets/betterColors.png')} />
+        </View>
+      </View>
+    );
+  }
+  ```
+

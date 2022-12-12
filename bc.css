@@ -1,31 +1,34 @@
 /*bc.css by, Easton Snow*/
 /*Border init*/
-.bc-black,.bc-hover-black:hover{background-color: black!important;}
+* {margin: 0; padding: 0; font-family: sans-serif; color:black;transition: 0.3s;}
+.bc-black,.bc-hover-black:hover{background-color: black;}
 .bc-orange,bc.bc-hover-orange:hover{background-color: orange;}
 .bc-yellow,bc.bc-hover-yellow:hover{background-color: yellow;}
 .bc-red,bc.bc-hover-red:hover{background-color: red;}
 .bc-indigo,bc.bc-hover-indigo:hover{background-color: indigo;}
-.bc-white,.bc-hover-white:hover{background-color: white!important;}
-.bc-gold,.bc-hover-gold:hover{background-color: gold!important;}
-.bc-goldenrod,.bc-hover-goldenrod:hover{background-color: goldenrod!important;}
-.bc-green,.bc-hover-green:hover{background-color:#4CAF50!important;color: white !important;}
-.bc-grass,.bc-hover-grass:hover{background-color: rgb(80, 221, 80)!important;}
-.bc-sky,.bc-hover-sky:hover{background-color: skyblue!important;}
+.bc-white,.bc-hover-white:hover{background-color: white;}
+.bc-gold,.bc-hover-gold:hover{background-color: gold;}
+.bc-goldenrod,.bc-hover-goldenrod:hover{background-color: goldenrod;}
+.bc-green,.bc-hover-green:hover{background-color:#4CAF50;color: white ;}
+.bc-grass,.bc-hover-grass:hover{background-color: rgb(80, 221, 80);}
+.bc-sky,.bc-hover-sky:hover{background-color: skyblue;}
 .bc-link,.bc-hover-link:hover{background-color: rgb(0, 0, 199);}
 .bc-mint,.bc-hover-mint:hover{background-color:rgb(162,228,184);}
+.bc-tuscarora-blue,.bc-hover-tuscarora-blue:hover{background-color: #9db6f8;}
 /*Text Color*/
-.bc-text-orange,bc.bc-hover-text-orange:hover{background-color: orange;transition: 0.3s!important;}
-.bc-text-yellow,bc.bc-hover-text-yellow:hover{background-color: yellow;transition: 0.3s!important;}
-.bc-text-red,bc.bc-hover-text-red:hover{background-color: red;transition: 0.3s!important;}
-.bc-text-indigo,bc.bc-hover-text-indigo:hover{background-color: indigo;transition: 0.3s!important;}
-.bc-text-black,.bc-hover-text-black:hover{color: black!important;transition: 0.3s!important;}
-.bc-text-gold,.bc-hover-text-gold:hover{color: gold!important;transition: 0.3s!important;}
-.bc-text-goldenrod,.bc-hover-text-goldenrod:hover{color: goldenrod!important;transition: 0.3s!important;}
-.bc-text-green,.bc-hover-text-green:hover{color:#4CAF50!important;transition: 0.3s!important;}
-.bc-text-grass,.bc-hover-text-grass:hover{color: rgb(80, 221, 80)!important;transition: 0.3s!important;}
-.bc-text-sky,.bc-hover-text-sky:hover{color: skyblue!important;transition: 0.3s!important;}
-.bc-text-link,.bc-hover-text-link:hover{color: rgb(0, 0, 199)!important;text-decoration: underline!important;transition: 0.3s!important;}
-.bc-text-mint,.bc-hover-text-mint:hover{color:rgb(162,228,184);transition: 0.3s!important;}
+.bc-text-orange,bc.bc-hover-text-orange:hover{background-color: orange;transition: 0.3s;}
+.bc-text-yellow,bc.bc-hover-text-yellow:hover{background-color: yellow;transition: 0.3s;}
+.bc-text-red,bc.bc-hover-text-red:hover{background-color: red;transition: 0.3s;}
+.bc-text-indigo,bc.bc-hover-text-indigo:hover{background-color: indigo;transition: 0.3s;}
+.bc-text-black,.bc-hover-text-black:hover{color: black;transition: 0.3s;}
+.bc-text-gold,.bc-hover-text-gold:hover{color: gold;transition: 0.3s;}
+.bc-text-goldenrod,.bc-hover-text-goldenrod:hover{color: goldenrod;transition: 0.3s;}
+.bc-text-green,.bc-hover-text-green:hover{color:#4CAF50;transition: 0.3s;}
+.bc-text-grass,.bc-hover-text-grass:hover{color: rgb(80, 221, 80);transition: 0.3s;}
+.bc-text-sky,.bc-hover-text-sky:hover{color: skyblue;transition: 0.3s;}
+.bc-text-link,.bc-hover-text-link:hover{color: rgb(0, 0, 199);text-decoration: underline;transition: 0.3s;}
+.bc-text-mint,.bc-hover-text-mint:hover{color:rgb(162,228,184);transition: 0.3s;}
+.bc-text-tuscarora-blue,.bc-text-tuscarora-blue:hover{color: #9db6f8;}
 /*Border Color*/
 .bc-bdc-orange{border-color: orange;}
 .bc-bdc-yellow{border-color: yellow;}
@@ -39,24 +42,25 @@
 .bc-bdc-gold{border-color: gold;}
 .bc-bdc-goldenrod{border-color: goldenrod;}
 /*Border type*/
-.bc-border{border-style:solid!important;border-width: 1px!important;}
-.bc-border-5{border-style:solid!important;border-width: 5px!important;}
-.bc-border-10{border-style:solid!important;border-width: 10px!important;}
-.bc-border-25{border-style:solid!important;border-width: 25px!important;}
+.bc-border{border-style:solid;border-width: 1px;}
+.bc-border-5{border-style:solid;border-width: 5px;}
+.bc-border-10{border-style:solid;border-width: 10px;}
+.bc-border-25{border-style:solid;border-width: 25px;}
 /*Extra*/
 .bc-opacity-half,.bc-hover-opacity-half:hover{opacity: 0.5;}
 .bc-opacity-full,.bc-hover-opacity-full:hover{opacity: 1;}
 .bc-m{margin:0;}
 .bc-m-16{margin: 16;}
 /* Border Radius */
-.bc-r-25{border-radius: 25px;}
-.bc-r-10{border-radius: 10px;}
-.bc-r-5{border-radius: 5px;}
-.bc-r-0{border-radius: 0px;}
+.bc-r-100,.bc-r-100:hover{border-radius: 100px;}
+.bc-r-25,.bc-hover-r-25:hover{border-radius: 25px;}
+.bc-r-10,.bc-r-10:hover{border-radius: 10px;}
+.bc-r-5,.bc-r-5:hover{border-radius: 5px;}
+.bc-r-0,.bc-r-0:hover{border-radius: 0px;}
 /* Position */
-.bc-absolute{position:absolute!important;}
-.bc-relative{position:relative!important;}
-.bc-fixed{position:fixed!important;}
+.bc-absolute{position:absolute;}
+.bc-relative{position:relative;}
+.bc-fixed{position:fixed;}
 /* display type */
 .bc-inline{display: inline;};
 /* Index */
@@ -65,6 +69,10 @@
 .bc-spin{animation: rotation 1s infinite linear;}
 .bc-once-spin,.bc-hover-once-spin:hover{animation: rotation 0.5s /*infinite*/ linear;}
 /* Padding */
+.bc-box{
+    width: 50px;
+    height: 50px;
+}
 @keyframes rotation {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
@@ -76,7 +84,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.bc-left-center{align-self: center!important;}
+.bc-left-center{align-self: center;}
 .bc-foot{
     bottom: 0;
     left: 50%;

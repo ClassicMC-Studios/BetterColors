@@ -1,4 +1,4 @@
-# Better<a href="">Colors</a>
+# Pluto<a href="">CSS</a>
 
 > Link stylesheet <a href="https://classicmc-studios.github.io/bc.css">here</a><br/>
 > Download React-Native version <a href="https://github.com/ClassicMC-Studios/Better-Colors/blob/main/Bc.js">Here</a>

@@ -1,4 +1,4 @@
-/*bc.css by, Easton Snow*/
+/*bc.css by, Weston Schnee*/
 * {margin: 0; padding: 0; font-family: sans-serif; color:black;transition: 0.3s;}
 .bc-black,.bc-hover-black:hover{background-color: black!important;}
 .bc-orange,bc.bc-hover-orange:hover{background-color: orange!important;}
@@ -72,7 +72,7 @@ button:hover{background-color:rgba(29,78,216,255);}
 .bc-rotate--25,.bc-hover-rotate--25:hover{transform: rotate(-25deg)!important;}
 @keyframes rotation {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}
 .bc-true-center{position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);}
-.bc-foot{position:absolute; bottom: 0;left: 50%;transform: translate(-50%, -0%);}
+.bc-footer{position:fixed; bottom: 0;left: 50%;transform: translate(-50%, -0%);background-color: lightgray;width:100%;}
 .bc-text-align{text-align: center;}.bc-text-left{text-align: left;}.bc-text-right{text-align: right;}
 .bc-p-0,.bc-hover-p-0:hover{padding: 0!important;}
 .bc-p-5,.bc-hover-p-5:hover{padding: 5px!important;}
@@ -93,3 +93,11 @@ button:hover{background-color:rgba(29,78,216,255);}
 .bc-w-50,.bc-hover-w-50:hover{width: 50%!important;}
 .bc-w-100,.bc-hover-w-100:hover{width: 100%!important;}
 .bc-w-90,.bc-hover-w-90:hover{width: 90%!important;}
+.bc-align-items{align-items:center;}
+.bc-justify-content{justify-content:center;}
+.bc-navbar ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;}
+.bc-navbar li {float: left;}
+.bc-navbar li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+.bc-navbar-justify-item-right{float: right!important;}
+.bc-disable-x-scroll{overflow-x: hidden;}
+.bc-background-opacity{background-blend-mode:lighten;background-color:#ffffffdc;}
